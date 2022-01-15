@@ -1,0 +1,86 @@
+body {
+  background-color: #f4f4f4;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+}
+li {
+  display: inline;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+img {
+  padding-top: 15px;
+}
+
+section a {
+  color: green;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+
+header {
+  border-top: solid green 5px;
+  border-bottom: solid green 5px;
+}
+
+footer {
+  background-color: green;
+  color: white;
+  border: 10px solid green;
+  text-align: center;
+}
+
+.container {
+  color: green;
+  margin: auto;
+  width: 60%;
+  overflow: hidden;
+}
+
+.catalogue ul {
+  text-align: left;
+}
+
+.shoes-in-stock ul {
+  text-align: left;
+}
+
+.shoes-in-stock li {
+  display: inline-table;
+}
+
+.container2 {
+  margin: auto;
+  width: 90%;
+  color: green;
+}
+
+.shirt-in-stock ul {
+  text-align: left;
+}
+
+.shirt-in-stock li {
+  display: inline-table;
+}
