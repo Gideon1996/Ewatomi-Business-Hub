@@ -52,6 +52,16 @@ footer {
   text-align: center;
 }
 
+.catalogue p {
+  margin-top: 0px;
+  padding-left: 15px;
+}
+
+.shoes-in-stock p,
+.shirt-in-stock p {
+  margin-top: 0px;
+}
+
 .container {
   color: green;
   margin: auto;
@@ -83,4 +93,35 @@ footer {
 
 .shirt-in-stock li {
   display: inline-table;
+}
+
+@media screen and (max-width: 1024px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .page-logo {
+    width: 350px;
+    height: auto;
+  }
+
+  footer {
+    border: 10px;
+    font-size: 15.5px;
+  }
+
+  .catalogue img {
+    width: 300px;
+    height: auto;
+  }
+
+  .shoes-in-stock img,
+  .shirt-in-stock img {
+    width: 100px;
+    height: 100px;
+  }
 }
